@@ -1,0 +1,61 @@
+/*Main Content*/
+.content_products .wrapper{
+	display: flex; flex-wrap: wrap; justify-content: space-around; flex-direction: row;
+}
+.content_product img{
+	width: 185px;
+}
+.content_product{
+	width: 185px; text-align: center; margin-right: 40px; margin-bottom: 30px;
+}
+.content_product h1{
+	font-weight: 400;
+}
+.content_products{
+	width: 900px; display: inline-block;
+}
+.main_content{
+	padding-top: 200px;
+}
+.page_results{
+	margin-bottom: 40px;
+}
+
+
+/*Sidebar*/
+.products_sidebar{
+	display: inline-block; width: 320px; position: absolute; 
+}
+.size_filter{
+	background-color: #F4F5F5; height: 140px;
+}
+.size_filter span, .top-rated-products span{
+	display: inline-block; width: 10px; height: 10px; background-color: #FAC134; margin-left: 25px; 
+}
+.size_filter p, .top-rated-products p{
+	display: inline-block; font-size: 24px; margin-left: 25px;
+}
+#products_size{
+	display: block; margin: auto; width: 250px; height: 30px;
+}
+.top-rated-products{
+	background-color: #F4F5F5; margin-top: 50px; padding: 4px;
+}
+.top-rated-products img{
+	width: 50px; float: right; position: relative; bottom: 35px; margin-right: 15px;
+}
+.top-rated-products h1,.top-rated-products p{
+	font-size: 16px; margin: 0;
+}
+.top-rated-products ul li{
+	margin-bottom: 30px; list-style: none;
+}
+.top-rated-products h1:hover{
+	color: #FAC134; transition-duration: 0.4s; cursor: pointer;
+}
+.top-rated-products img:hover{
+	cursor: pointer; 
+}
+.top-rated-products ul{
+	padding: 0; margin-left: 25px;
+}

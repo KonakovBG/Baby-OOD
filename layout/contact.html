@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Бебе ООД</title>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" id="elementor-icons-css" href="http://live-demo.wooskins.com/themes/ws-baby/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1" type="text/css" media="all">
+	<script src="https://kit.fontawesome.com/b7d0d440b4.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../js/map.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD49axdCgwnCY0W7bN8LC1CjJqThtWdSXY&callback=initMap&libraries=&v=weekly" async></script>	
+</head>
+<body>
+<div class="wrapper">
+	<div class="top-bar">
+		<div class="shell">
+			<div class="logo">					
+				<a href="index.html"><img src="../img/logo-image.png" class="logo-cut-image"><img src="../img/logo-text.png" class="logo-cut-text"></a>
+			</div>
+							
+		    <div class="top-bar-nav">
+				<ul>
+					<a href="index.html"><li>Home</li></a>
+					<a href="shop.html"><li>Shop</li></a>
+					<a href="about-us.html"><li>About us</li></a>
+					<a href="contact.html"><li>Contact</li></a>						
+					<a href="gallery.html"><li>Gallery</li></a>						
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact_info">
+		<div class="shell">
+			<div class="info_adress">
+				<i class="fas fa-map-marker-alt"></i>
+				<div class="adress_info">
+					<p>ADDRESS</p>
+
+					<p>Urban Area, Hoang Mai District</p>
+				</div>				
+			</div>
+
+			<div class="info_phone">
+				<i class="fas fa-phone-volume"></i>
+
+				<div class="phone_info">
+					<p>PHONE</p>
+
+					<p>Urban Area, Hoang Mai District</p>
+				</div>	
+			</div>
+
+			<div class="info_email">
+				<i class="fas fa-envelope"></i>
+
+				<div class="email_info">
+					<p>EMAIL</p>
+
+					<p>Urban Area, Hoang Mai District</p>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="shell">
+		<div id="map"></div>
+	</div>
+
+	<div class="contact-header">
+		<div class="contact-dots">
+				<span class="dots"></span>
+				<span class="dots"></span>
+				<span class="dots"></span>
+			</div>
+		<h1>Contact us</h1>
+
+		<p>Pellentesque aliquet sed magna consequat venenatis. Ut fermentum viverra porta. Nullam dui odio, tempus ut porttitor non,
+		dignissim vel felis. Vestibulum convallis eu eros sit amet pellentesque. Vestibulum ullamcorper</p>
+	</div>	
+
+	<div class="contact_form">
+		<div class="shell">
+			<div class="wrapper">
+				<form method="POST" class="form">
+					<input type="text" name="fname" placeholder="First Name">
+
+					<input type="text" name="lname" placeholder="Last Name">
+
+					<input type="text" name="email" placeholder="Email">
+
+					<textarea name="message" placeholder="Message"></textarea>
+
+					<input type="submit" name="submit" class="submit-button">
+				</form>
+			</div>
+			<p class="result"></p>
+		</div>	
+	</div>
+</div>
+</body>
+</html>

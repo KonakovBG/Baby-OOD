@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://localhost/lessons/learning/js/JS-cart/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title></title>
+	<link href="./index_files/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./index_files/style.css">
+	<script src="./index_files/jquery.min.js.download"></script>
+  <script type="text/javascript" src="./index_files/index.js.download"></script>
+  <script src="./index_files/vue.js.download"></script>
+</head>
+<body>
+  <div id="app"><div class="flex flex-col"><div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8"><div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8"><div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg"><div id="products"></div><table class="min-w-full divide-y divide-gray-200"><thead class="bg-gray-50"><tr><th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Thumbnail
+                </th> <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Title
+                </th> <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Pricing
+                </th> <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Stock Left
+                </th> <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Quantity
+                </th> <th scope="col" class="relative px-6 py-3"><span class="sr-only">Add</span></th></tr></thead> <tbody class="bg-white divide-y divide-gray-200"><tr id="product"><td class="px-6 py-4 whitespace-nowrap"><div class="flex items-center"><div class="flex-shrink-0 h-10 w-10"><img src="./index_files/apple.png" alt="" class="h-10 w-10 rounded-full image"></div></div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="product-name" class="text-sm text-gray-900 name">Apple</div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="product-pricing" class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800 price"> 2 </div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="product-stock" class="text-sm text-gray-900 stock-left"> 10 </div></td> <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><input type="number" id="quantity" name="quantity" min="1" max="1000" class="quantity"></td> <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium"><button class="text-indigo-600 hover:text-indigo-900 addButton">Add</button></td></tr><tr id="product"><td class="px-6 py-4 whitespace-nowrap"><div class="flex items-center"><div class="flex-shrink-0 h-10 w-10"><img src="./index_files/apple.png" alt="" class="h-10 w-10 rounded-full image"></div></div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="product-name" class="text-sm text-gray-900 name">Pear</div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="product-pricing" class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800 price"> 3 </div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="product-stock" class="text-sm text-gray-900 stock-left"> 47 </div></td> <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><input type="number" id="quantity" name="quantity" min="1" max="1000" class="quantity"></td> <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium"><button disabled="disabled" class="text-indigo-600 hover:text-indigo-900 addButton">Add</button></td></tr><tr id="product"><td class="px-6 py-4 whitespace-nowrap"><div class="flex items-center"><div class="flex-shrink-0 h-10 w-10"><img src="./index_files/apple.png" alt="" class="h-10 w-10 rounded-full image"></div></div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="product-name" class="text-sm text-gray-900 name">Grape</div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="product-pricing" class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800 price"> 5 </div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="product-stock" class="text-sm text-gray-900 stock-left"> 25 </div></td> <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><input type="number" id="quantity" name="quantity" min="1" max="1000" class="quantity"></td> <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium"><button disabled="disabled" class="text-indigo-600 hover:text-indigo-900 addButton">Add</button></td></tr></tbody></table></div></div></div></div> <div id="content_cart"><h1>Cart</h1> <div class="flex flex-col"><div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8"><div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8"><div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg"><table class="min-w-full divide-y divide-gray-200"><thead class="bg-gray-50"><tr><th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Title
+                  </th> <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Quantity
+                  </th> <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Price
+                  </th> <th scope="col" class="relative px-6 py-3"><span class="sr-only">Add</span></th></tr></thead> <tbody class="bg-white divide-y divide-gray-200 cart"><tr id="product-cart"><td class="px-6 py-4 whitespace-nowrap"><div id="name-cart" width="140" class="text-sm text-gray-900 name">Apple</div></td> <td class="px-6 py-4 whitespace-nowrap"><div id="quantity-cart" class="text-sm text-gray-900 quantity-cart">5</div></td> <td class="px-6 py-4 whitespace-nowrap"><span id="price-cart" class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800 price-cart">10</span></td> <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium"><button class="text-indigo-600 hover:text-indigo-900 removeButton-cart">Remove</button></td></tr></tbody></table></div></div></div></div> <div><p id="cart_price-amount">
+        Cart Price : NaN
+      </p></div></div></div>
+
+</body></html>

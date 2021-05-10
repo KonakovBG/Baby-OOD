@@ -1,0 +1,80 @@
+*{
+	font-family: 'Pompiere';
+}
+body{
+	margin: 0; padding: 0; overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; } 
+
+.shell{
+	margin: 0px 50px;
+}
+
+/*Top-Bar*/
+.top-bar .shell{
+	display: flex; flex-direction: row; justify-content: space-between;
+}
+.top-bar{
+	background-color: #857660; width: 100%; z-index: 1; margin-bottom: 60px;
+}
+.top-bar-nav ul{
+	display: flex; list-style: none; color: white;			
+}
+.top-bar ul a+a{
+	margin-left: 15px;
+}
+.top-bar ul a{
+	font-size: 24px;
+}
+.top-bar ul a:hover{
+	color: #E1CB96;
+	transition-duration: 0.5s;
+}
+.logo-cut-image{
+	height: 50px;padding-top: 5px;
+}
+.logo-cut-text{
+	display: inline-block; height: 30px; position: relative; bottom: 10px;
+}
+/* Gallery */
+#animated-thumbnails{
+	padding-top: 75px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#animated-thumbnails img{
+	width: 373px; height: 275px; border: 5px grey solid; margin-bottom: 30px;
+}
+/*Footer*/
+.footer_information .logo{
+	position: absolute; height: 500px;
+}
+
+.footer_info{ 
+	position: relative; bottom: 500px; margin-left: 520px; display: inline-block;
+}
+.footer-logo img{
+	width: 150px;
+	height: 200px;
+}
+.footer_info li{
+	list-style: none; margin-bottom: 20px; color: white; font-size: 24px; text-align: center;
+}
+.footer_info li img{
+	margin-right: 20px;
+}
+/*Carousel*/
+.owl-carousel, .owl-theme{
+	margin-top: 50px; height: 300px; display: block;
+}
+.owl-prev, .owl-next{
+	outline: none !important; width: 75px; height: 30px;
+}
+.owl-prev span, .owl-next span{
+	font-size: 34px; position: relative; bottom: 10px;
+}
+.item img{
+	width: 300px;
+}

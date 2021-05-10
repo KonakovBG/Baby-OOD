@@ -1,0 +1,72 @@
+/*Top Bar*/
+.top-bar .shell,.content .shell{
+	display: flex; flex-direction: row; justify-content: space-between;
+}
+.top-bar{
+	background-color: #857660; position: fixed; width: 100%; z-index: 1; 
+}
+.top-bar-nav ul{
+	display: flex; list-style: none; color: white;			
+}
+.top-bar ul a+a{
+	margin-left: 15px;
+}
+.top-bar ul a{
+	font-size: 24px;
+}
+.top-bar ul a:hover{
+	color: #E1CB96;
+	transition-duration: 0.5s;
+}
+.logo-cut-image{
+	height: 50px;padding-top: 5px;
+}
+.logo-cut-text{
+	display: inline-block; height: 30px; position: relative; bottom: 10px;
+}
+/*Main Content*/
+.content{
+	width: 100%; height: 500px; display: inline-block; margin-top: 100px;
+
+}
+.content_ad-header{
+	width: 400px; margin-left: 50px; 
+}
+.content-ad_content{
+	display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-around;
+}
+.content-dots{
+	position: relative; left: 85px; 
+}
+.content_ad-header h1{
+	font-size: 40px; color: #FAC134; margin: 40px 0px;
+}
+.content_ad-header p{
+	font-size: 20px;
+}
+.content_ad-header button{
+	background-color: #FAC134; width: 100px; height: 40px; outline: none; border: none; color: white; font-size: 20px;
+}
+.content_ad-header button:hover{
+	background-color: #4763AC; cursor: pointer; transition-duration: 0.5s;
+}
+/*Counter*/
+.counter{
+	background-image: url("../img/counter.jpg"); background-attachment: fixed; background-repeat: no-repeat; height: 350px; opacity: .9; margin-bottom: 100px;
+}
+.counter_field{
+	z-index: 1;
+}
+.counter_field span{
+	height: 50px; width: 100px;
+	display: inline-block;
+}
+.counter .wrapper{
+	display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; padding-top: 110px;
+}
+.counter_field{
+	background-color: black; opacity: .9; border-radius: 50%; border: dotted 2px #FAC134; 
+}
+.counter_field i{
+	font-size: 50px; color: white; padding: 20px;
+}

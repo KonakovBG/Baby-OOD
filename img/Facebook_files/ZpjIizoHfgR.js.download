@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Xzb1295"]); }
+
+__d("PublicEventCometAboutRootQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"5309141289159817",metadata:{},name:"PublicEventCometAboutRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("PublicEventCometAboutRoot.entrypoint",["JSResourceForInteraction","PublicEventCometAboutRootQuery$Parameters","WebPixelRatio","buildPublicEventCometRoute.entrypoint"],(function(a,b,c,d,e,f){"use strict";var g=7771;a=b("buildPublicEventCometRoute.entrypoint")(b("JSResourceForInteraction")("PublicEventCometAboutRoot.react").__setRef("PublicEventCometAboutRoot.entrypoint"),function(a){a=a.routeProps;var c=a.arenaID;a=a.eventID;var d=g,e=b("WebPixelRatio").get();return{queries:{publicEventAboutRootQueryReference:{parameters:b("PublicEventCometAboutRootQuery$Parameters"),variables:{arenaID:c,eventID:a,nuxID:d,scale:e}}}}});e.exports=a}),null);

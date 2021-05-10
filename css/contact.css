@@ -1,0 +1,102 @@
+*{
+	font-family: 'Pompiere';
+}
+body{
+	margin: 0; padding: 0; overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; } 
+
+.shell{
+	margin: 0px 50px;
+}
+
+/*Top-Bar*/
+.top-bar .shell{
+	display: flex; flex-direction: row; justify-content: space-between;
+}
+.top-bar{
+	background-color: #857660; position: fixed; width: 100%; z-index: 1; 
+}
+.top-bar-nav ul{
+	display: flex; list-style: none; color: white;			
+}
+.top-bar ul a+a{
+	margin-left: 15px;
+}
+.top-bar ul a{
+	font-size: 24px;
+}
+.top-bar ul a:hover{
+	color: #E1CB96;
+	transition-duration: 0.5s;
+}
+.logo-cut-image{
+	height: 50px;padding-top: 5px;
+}
+.logo-cut-text{
+	display: inline-block; height: 30px; position: relative; bottom: 10px;
+}
+/*Contact info*/
+.contact_info{
+	padding-top: 150px;
+}
+.contact_info .shell{
+	display: flex; flex-direction: row; justify-content: space-around;flex-wrap: wrap; text-align: center;
+}
+.contact_info i{
+	position: relative; top: 20px; right: 30px; font-size: 40px; border: 3px solid #F2C113; padding: 25px; border-radius: 50%;color: #F2C113;
+}
+.info_adress,.info_phone,.info_email{
+	box-shadow: black;-webkit-box-shadow: 4px 8px 15px -4px rgba(0,0,0,0.52);
+	-moz-box-shadow: 4px 8px 15px -4px rgba(0,0,0,0.52);
+	box-shadow: 4px 8px 15px -4px rgba(0,0,0,0.52);	width: 373px; height: 136px;
+}
+.phone_info,.email_info,.adress_info{
+	display: inline-block; text-align: left;
+}
+.contact_info p{
+	margin: 0; color: black;font-size: 20px;
+}
+.contact_info i:hover{	
+	transition-duration: 0.5s; color: white;cursor: pointer;background-color: rgb(242,193,19);
+}
+/*Map*/
+#map {
+    height: 400px;  width: 100%; margin-top: 50px;
+}
+
+/*Contact Form*/
+.contact_form{
+	margin-top: 50px; 
+}
+.wrapper{
+	margin: auto;
+}
+.contact_form .shell .wrapper input,.contact_form .shell .wrapper textarea{
+	display: block; width: 100%; height: 50px; margin-bottom: 30px;font-size: 24px; 
+}
+.contact_form .shell .wrapper textarea{
+	height: 100px;
+}
+.submit-button{
+	color: white; background-color: #F2C113; outline: none; border:none; width: 400px !important; float: right;
+}
+.contact-dots{
+	margin-left: 640px;
+}
+.contact-header h1{
+	position: relative; left: 590px; margin: 0px; padding-top: 40px; font-size: 40px; color: #FAC134;
+}
+.contact-header p{
+	position: relative; left: 270px; width: 800px; text-align: center; font-size: 24px; color: black;
+}
+.dots{
+	width: 10px; height:10px; display: inline-block; background-color: #FAC134; border-radius: 4px; 
+}
+.contact-header{
+	margin-top: 50px;
+}
+.result{
+	font-size: 24px; color: green;
+}
+
